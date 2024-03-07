@@ -1,0 +1,201 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600;700&family=Protest+Revolution&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin:0;
+    font-family: 'Protest Revolution', sans-serif;
+
+}
+
+.navbar{
+    display: flex;
+    flex-flow: row wrap;
+    height: 100px;
+    background: purple;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+}
+
+.logo{
+    flex: 20%;
+    margin-left:10% ;
+    /* border: 1px solid black; */
+    text-align: left;
+}
+
+.logo h1{
+    font-family: 'Protest Revolution', sans-serif;
+    color: #180f4a;
+    font-size: 30px;
+}
+
+.menu{
+    flex: 70%;
+    /* border:1px solid black;*/
+    text-align: right;
+    padding: 20px;
+}
+
+.menu a{
+       color: #180f4a;
+       text-decoration: none;
+    font-size: 20px;
+    padding: 20px 16px;
+
+}
+
+.menu a:hover{
+      color:blueviolet;
+      border-top:4px solid black;
+}
+
+#botao{
+    background: #180f4a;
+    padding: 10px 25px;
+    color: black;
+    border-radius: 5px;
+    margin-right: 10%;
+    margin-left: 5%;
+   
+}
+
+#botao:hover{
+    border:none;
+    background: blueviolet;
+
+}
+
+.header{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    height: 600px; 
+    background: black;
+    padding-top: 100px;
+}
+
+.headline{
+    margin-left:10%;
+    flex:40%;
+    /* border: 1px solid black; */
+}
+
+.headline h2{
+    font-weight: 900;
+    font-size: 20px;
+    color: #180f4a;
+    padding: 0;
+    margin: 0;
+}
+
+.headline p{
+       color: blueviolet;
+       text-align: left;
+
+}
+
+.contact-btn{
+    display: inline-block;
+    background: blueviolet;
+    padding: 20px;
+    color: white;
+    text-transform: uppercase;
+    border-radius:5px ;
+    text-decoration: none;
+}
+
+.contact-btn:hover{
+      background: #180f4a;
+}
+
+.img-headline{
+      margin-right: 10%;
+      flex:40%;
+      /* border: 1px solid black; */
+      text-align: center;
+}
+
+section{
+    display: inline-block;
+    margin-top: 80px;
+    /* border: 1px solid black; */
+    margin-left: 5%;
+    margin-right: 5%;
+    /* height: 400px; */
+    padding: 5%;
+    text-align: center;
+    /* width: 90%; */
+}
+
+section h2{
+     width: 100%;
+     font-size: 50px;
+     margin: 0;
+     font-family:'Protest Revolution', sans-serif;
+     font-weight: bold ;
+     color: #180f4a;
+
+}
+
+.servicos{
+    display: inline-block;
+    margin-top: 5%;
+}
+
+.card{
+    display: inline-block;
+    width: 30%;
+    padding: 20px;
+    margin: 1%;
+    border: 1px solid black;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.card:hover{
+    background: #180f4a;
+    color: blueviolet;
+    padding: 40px;
+}
+
+.card:hover img{
+        display: none;
+}
+
+.texto-oculto{
+    display: none;
+
+}
+
+footer{
+    margin-top: 100px;
+    height: 400px;
+    background-image: linear-gradient(180deg,purple,black,blueviolet);
+    text-align: center;
+    border:5px solid #180f4a;
+}
+
+.logo-rodape{
+    padding: 10px;
+
+}
+
+.agencia{
+    font-family: 'Protest Revolution', sans-serif;
+    color: blueviolet;
+    font-size: 30px;
+}
+
+.whats{
+    position: fixed;
+    bottom: 5px;
+    right: 5px;
+    width: 100px;
+}
